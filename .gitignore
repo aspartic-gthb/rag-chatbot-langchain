@@ -6,3 +6,6 @@ __pycache__/
 *.py[cod]
 .ipynb_checkpoints/
 .pytest_cache/
+PROJECT_REFERENCE_GUIDE.md
+README.md
+*.md
