@@ -1,0 +1,8 @@
+.env
+.env.*
+chroma_db/
+rag_app.db
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/

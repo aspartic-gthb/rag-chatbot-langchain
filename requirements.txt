@@ -1,0 +1,14 @@
+langchain
+langchain-core
+langchain-community
+langchain-classic
+langchain-openai
+langchain-chroma
+chromadb
+sentence-transformers
+pypdf
+docx2txt
+python-dotenv
+fastapi
+uvicorn
+pydantic
