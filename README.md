@@ -54,7 +54,11 @@ pip install -r requirements.txt
 
 ### 3. Environment Configuration
 
-Create a `.env` file in the root directory:
+Create a `.env` file in the root directory (or copy from `.env.example`):
+
+```bash
+cp .env.example .env
+```
 
 ```env
 # Optional: Set OpenAI key for GPT models (defaults to local HuggingFace if omitted)
