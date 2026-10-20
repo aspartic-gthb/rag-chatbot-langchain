@@ -1,5 +1,6 @@
 .env
 .env.*
+!.env.example
 chroma_db/
 rag_app.db
 __pycache__/
