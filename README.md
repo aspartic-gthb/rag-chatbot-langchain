@@ -61,16 +61,12 @@ cp .env.example .env
 ```
 
 ```env
-# Optional: Set OpenAI key for GPT models (defaults to local HuggingFace if omitted)
-OPENAI_API_KEY="your-openai-api-key"
-
-# Optional: LangSmith Tracing
-LANGCHAIN_TRACING_V2="true"
-LANGCHAIN_API_KEY="your-langchain-api-key"
-LANGCHAIN_PROJECT="RAG-Chatbot"
-
-# Optional: Default HuggingFace Model
-HF_MODEL_NAME="Qwen/Qwen2.5-0.5B-Instruct"
+OPENAI_API_KEY=your_openai_api_key_here
+HF_MODEL_NAME=Qwen/Qwen2.5-0.5B-Instruct
+EMBEDDING_PROVIDER=local
+LANGCHAIN_TRACING_V2=true
+LANGCHAIN_API_KEY=your_langchain_api_key_here
+LANGCHAIN_PROJECT=rag-chatbot
 ```
 
 ---
@@ -84,8 +80,6 @@ Start the Streamlit application:
 ```bash
 streamlit run app.py
 ```
-
-The app will open at `http://localhost:8501`.
 
 - **Model Selection**: Select between `Qwen/Qwen2.5-0.5B-Instruct (HuggingFace)` (default) or OpenAI models.
 - **Upload Document**: Drag & drop or browse a `.pdf`, `.docx`, `.html`, or `.htm` file. It will automatically index into ChromaDB.
